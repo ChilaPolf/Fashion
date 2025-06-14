@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.ski {
+  color: #D41A93;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: wheat;
+  border-bottom: 1px solid red
+}
+.menu {
+  padding-top: 18px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  padding-top: 10
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border-radius: 20px
+}
+.menu ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+/*slider*/
+#slide .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+#slide .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+}
+#slide .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slide .owl-nav [class*='owl-'] {
+  font-size: 70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #E66AE9
+}
+#slide .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slide .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slide .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: #F0181B;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  min-height: 500px;
+  clear: both
+}
+.text-do {
+  color: red
+}
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column
+}
+aside ul li {
+  border-bottom: 1px solid #AD2325
+}
+aside ul li a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #666666;
+  text-transform: capitalize
+}
+aside ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+.text-den {
+  font-weight: bold;
+  font-size: 30px
+}
+.sp {
+  font-size: 20px;
+  color: #DD2E31;
+  text-align: center;
+  font-weight: bold
+}
+footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: whitesmoke
+}
+footer a {
+  color: gray
+}
+footer a:hover {
+  color: red
+}
+.mr-10 {
+  margin-right: 10px
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: column
+}
+footer ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+	
+}
+footer ul li a:hover {
+  color: white
+}
